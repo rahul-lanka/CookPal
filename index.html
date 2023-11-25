@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Interactive Recipe Catalogue</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav-title"><img src="./Assets/Cookpal 1.svg" /></div>
+            <div class="nav-buttons">
+                <button class="nav-button"><b>Home</b></button>
+                <button class="nav-button"><b>Explore</b></button>
+                <button class="nav-button"><b>Help</b></button>
+            </div>
+            <div class="nav-profile"><img src="./Assets/Profile.svg" /></div>
+        </nav>
+        <div>
+            <img class="image-one" src="./Assets/Rectangle 20.svg" />
+        </div>
+        <h3 class="search-for-recipes"><b>Search For Recipes</b></h3>
+        <!-- Search Bar -->
+        <input class="search-bar" type="text" id="searchBar" placeholder="Search For Recipes">
+
+        <!-- Toggle Buttons -->
+        <div class="toggle-buttons">
+            <button id="showAll">All Recipes     ></button>
+            <button id="showVeg">Veg Recipes Only ></button>
+            <button id="showNonVeg">Non-Veg Recipes ></button>
+        </div>
+        <div class="filter-for-rating">
+            <!-- Rating Filter -->
+            <div class="rating-filter">
+                <h3><b>Filters</b></h3>
+                <h4 class="rating-for-radio">Rating</h4>
+                <input type="radio" name="rating" id="above4.5"> Rating Above 4.5
+                <input type="radio" name="rating" id="below4.0"> Rating Below 4.0
+            </div>
+        </div>
+
+
+        <!-- Recipe Cards Container -->
+        <div class="recipe-img">
+            <div id="recipeCards" class="recipe-cards">
+                <!-- Recipe cards will be dynamically added here -->
+            </div>
+        </div>
+        
+
+        <!-- Mobile Drawer -->
+        <div id="mobileDrawer" class="mobile-drawer">
+            <!-- Content for mobile drawer -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

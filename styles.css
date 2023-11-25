@@ -1,0 +1,100 @@
+
+nav{
+    display: flex;
+}
+.nav-title{
+    margin-left: 6vw;
+}
+.nav-buttons{
+    margin-top: 3vh;
+    margin-left: 55vw;
+    justify-content: space-between;
+}
+.nav-profile{
+    margin-left: 3vw;
+    margin-top: 1vh;
+}
+.nav-button{
+    margin-left: 2vw;
+    border: none;
+    background-color: white;
+}
+.nav-button:hover{
+    color: #509e2f;
+
+}
+.image-one{
+    width: 92vw;
+    margin-top: 7vh;
+    margin-left: 3vw;
+}
+.search-for-recipes{
+    margin-left: 5vw;
+}
+
+.search-bar{
+    width:87vw;
+    margin-left: 4vw;
+    background-color: #f3f3f3;
+    border: none;
+}
+#showAll{
+    border: none;
+    border-radius: 2vh;
+    width: 15vw;
+    height: 10vh;
+    background-color: #EAAA00;
+    color: white;
+}
+#showVeg{
+    border: none;
+    border-radius: 2vh;
+    width: 15vw;
+    height: 10vh;
+    background-color: #c4d600;
+    color: white;
+}
+#showNonVeg{
+    border: none;
+    border-radius: 2vh;
+    width: 15vw;
+    height: 10vh;
+    background-color: #dc582a;
+    color: white;
+}
+.toggle-buttons{
+    margin-left: 4vw;
+    margin-top: 4vh;
+}
+.filter-for-rating{
+    width: 30vw;
+    float: left; /* Add this to make the div float to the left */
+    margin-right: 2vw;
+}
+.rating-filter {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+    margin-top: 4vh; /* Adjust margin to create space between toggle buttons and rating filter */
+}
+.rating-for-radio{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.recipe-img{
+    margin-top: 5vh;
+}
+#recipeCards {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: space-between; /* Distribute cards evenly */
+    margin-right: 20vw; /* Add some margin to create space between the filter and recipe cards */
+}
+#recipeCards {
+    width: 2vw; /* Adjust the width to allow for 3 columns */
+}
+
+.recipe-card {
+    width: 2vw; /* Adjust the width of each card to fit into 3 columns */
+    margin-bottom: 2vh; /* Add margin between cards */
+}
